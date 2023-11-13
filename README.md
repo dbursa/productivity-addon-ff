@@ -7,3 +7,6 @@ Very simple Mozilla Firefox addon, which is measuring, how long you are on activ
 - `[ ]` stop counting time, when user is not in Firefox (different window)
 - `[ ]` store data after close session
 - `[ ]` restore last data on new session
+
+- `[ ]` add description to manifest.json
+- `[ ]` add icon to manifest.json

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Website measure",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["scripts/measure.js"]
+    }
+  ]
+}
