@@ -1,5 +1,5 @@
 # How active am I? (Productivity addon)
-Very simple Mozilla Firefox addon, which is measuring, how long you are on active tab of browser. You can set it just for your work hours or for entire usage. It will give you data, how long you spend on every website.
+Very simple Mozilla Firefox addon, which is measuring, how long you are on active tab of Firefox browser. You can set it just for your work hours or for entire usage. It will give you interesting data, how long you spend on every website. 
 
 ## TODO list **before** first official release
 - `[ ]` recognize active tab
