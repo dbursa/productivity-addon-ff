@@ -5,10 +5,22 @@
 
   "description": "Very simple Mozilla Firefox addon, which is measuring, how long you are on active tab of Firefox browser. You can set it just for your work hours or for entire usage. It will give you interesting data, how long you spend on every website.",
 
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/main_icon.png"
+    },
+    "default_title": "Whereami?",
+    "default_popup": "popup/popup.html"
+  },
+
+  "icons": {
+    "48": "icons/main_icon.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.mozilla.org/*"],
-      "js": ["scripts/measure.js"]
+      "js": ["measure.js"]
     }
   ]
 }
