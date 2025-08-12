@@ -1,0 +1,1 @@
+A page that's shown when the user accesses your add-on's preferences in the browser's native add-ons manager - maybe just few options for users

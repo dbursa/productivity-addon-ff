@@ -1,0 +1,1 @@
+A dialog that you can display when the user clicks on a toolbar button or address bar button - maybe here gonna be all borwserAction logic

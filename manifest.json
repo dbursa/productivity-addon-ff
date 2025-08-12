@@ -1,17 +1,18 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Website measure",
   "version": "0.1",
+  "description": "Very simple Mozilla Firefox addon, which is measuring how long you are on the active tab of the Firefox browser...",
 
-  "description": "Very simple Mozilla Firefox addon, which is measuring, how long you are on active tab of Firefox browser. You can set it just for your work hours or for entire usage. It will give you interesting data, how long you spend on every website.",
-
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icons/main_icon.png"
     },
     "default_title": "Whereami?",
     "default_popup": "popup/popup.html"
   },
+
+  "options_page": "options.options.html",
 
   "icons": {
     "48": "icons/main_icon.png"
@@ -22,5 +23,7 @@
       "matches": ["*://*.mozilla.org/*"],
       "js": ["measure.js"]
     }
-  ]
+  ],
+
+  "host_permissions": ["*://*.mozilla.org/*"]
 }

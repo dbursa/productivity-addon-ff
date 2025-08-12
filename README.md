@@ -8,5 +8,9 @@ Very simple Mozilla Firefox addon, which is measuring, how long you are on activ
 - `[ ]` store data after close session
 - `[ ]` restore last data on new session
 
+- `[ ]` add typescript and prepare some build tool
 - `[ ]` add description to manifest.json
 - `[ ]` add icon to manifest.json
+
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface
